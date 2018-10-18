@@ -6,6 +6,46 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 h1, h2 {
+  color: #cc1465;
   font-family: 'Sigmar One', cursive;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav {
+  text-align: center;
+}
+.nav a {
+  background-color: #b2a212;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  font-family: Georgia, sans-serif;
+  padding: .2em .5em .3em;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #b20952;
+}
+
+header {
+  padding: .75em;
+  background-color: #ffe500;
+}
+
+h1 {
+  margin: 0;
+}
+
+footer {
+  margin: 0;
 }
