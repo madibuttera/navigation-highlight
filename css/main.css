@@ -23,6 +23,7 @@ h1, h2 {
 .nav {
   text-align: center;
 }
+
 .nav a {
   background-color: #b2a212;
   border-radius: 4px;
@@ -40,6 +41,7 @@ h1, h2 {
 header {
   padding: .75em;
   background-color: #ffe500;
+  margin: 0;
 }
 
 h1 {
@@ -47,5 +49,8 @@ h1 {
 }
 
 footer {
+  padding: .75em;
+  background-color: #ffe500;
   margin: 0;
+  text-align: center;
 }
