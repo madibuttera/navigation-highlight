@@ -1,6 +1,8 @@
 html {
   background-color: #fff;
   box-sizing: border-box;
+  font-family: Georgia, serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -19,17 +21,13 @@ body {
 h1, h2 {
   color: #b20952;
   font-family: "Sigmar One", cursive;
-  font-size: 3em;
+  font-size: 3rem;
   text-align: center;
 }
 
-h1 {
-
-}
-
 h2 {
-  font-size: 2em;
-  padding: 0;
+  font-size: 1.875rem;
+  padding: ;
   text-align: left;
 }
 
@@ -53,7 +51,6 @@ main {
   border-radius: 4px;
   color: #fff;
   display: inline-block;
-  font-family: Georgia, sans-serif;
   padding: .2em .5em .3em;
   text-decoration: none;
   font-size: 1.125rem;
@@ -89,7 +86,10 @@ footer {
 }
 
 .move {
-  padding: 0 .75em;
   background-color: #fff;
   text-align: left;
+}
+
+.current {
+  background-color: #b20953;
 }
