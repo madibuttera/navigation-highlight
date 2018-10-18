@@ -1,4 +1,5 @@
 html {
+  background-color: #fff;
   box-sizing: border-box;
 }
 
@@ -22,6 +23,10 @@ h1, h2 {
   text-align: center;
 }
 
+h1 {
+
+}
+
 h2 {
   font-size: 2em;
   padding: 0;
@@ -30,10 +35,13 @@ h2 {
 
 .nav li {
   display: inline-block;
+  margin-bottom: .3em;
 }
 
 .nav {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 main {
@@ -48,6 +56,7 @@ main {
   font-family: Georgia, sans-serif;
   padding: .2em .5em .3em;
   text-decoration: none;
+  font-size: 1.125rem;
 }
 
 .nav a:hover {
@@ -55,7 +64,6 @@ main {
 }
 
 header {
-  padding: .2em .5em .3em;
   background-color: #ffe500;
   margin: 0;
 }
