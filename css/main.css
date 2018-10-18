@@ -16,7 +16,7 @@ body {
 }
 
 h1, h2 {
-  color: #cc1465;
+  color: #b20952;
   font-family: "Sigmar One", cursive;
   font-size: 3em;
   text-align: center;
@@ -50,13 +50,13 @@ main {
 }
 
 .nav a:hover {
-  background-color: #b20952;
+  background-color: #cc1465;
 }
 
 header {
   padding: .2em .5em .3em;
   background-color: #ffe500;
-  margin: 0em;
+  margin: 0;
 }
 
 h1 {
